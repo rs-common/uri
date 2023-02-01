@@ -2,11 +2,15 @@
 name = "uri"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "uri formatting tool conforming to rfc3986"
+homepage = "https://github.com/rs-common/uri"
+exclude = [
+    "test/*"
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 lazy_static = "1.4.0"
 regex = "1.7.0"
-
-
